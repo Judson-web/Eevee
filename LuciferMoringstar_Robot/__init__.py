@@ -28,14 +28,10 @@ Bot Owner Only
 """
 
 ABOUT = """
-➥ Name :  Auto Filter V3
-    
-➥ Creator : [Naughty PROFESSOR](
-https://youtube.com/c/NaughtyPROFESSOR)
-
-➥ Language : Python3
-
-➥ Library : Pyrogram Asyncio 1.13.0
-
-➥ Tutorial : [Click Me](https://youtu.be/5hnYOKBzyi8)
+❍ ɴᴀᴍᴇ:  Auto Filter V1
+❍ ᴄʀᴇᴀᴛᴏʀ : [ᴅᴀʀᴋ ʟᴏʀᴅ](HTTPS://T.ME/VAMPIRE_KING_NO_1)
+❍ ᴇᴅɪᴛᴏʀ : [ᴅᴀʀᴋ ᴀɴɢᴇʟ](HTTPS://T.ME/DARKZ_ANGEL)
+❍ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ3
+❍ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ ᴀsʏɴᴄᴇ 1.13.0
+❍ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://youtu.be/5hnYOKBzyi8)
 """
