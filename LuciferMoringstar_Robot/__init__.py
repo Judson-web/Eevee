@@ -33,5 +33,5 @@ ABOUT = """
 ❍ ᴇᴅɪᴛᴏʀ : [ᴅᴀʀᴋ ᴀɴɢᴇʟ](HTTPS://T.ME/DARKZ_ANGEL)
 ❍ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ3
 ❍ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ ᴀsʏɴᴄɪᴏ 1.13.0
-❍ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://youtu.be/5hnYOKBzyi8)
+❍ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/NOKIERUNNOIPPKITTUM)
 """
