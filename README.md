@@ -7,6 +7,10 @@
 ## Subscribe YouTube Channel
 <a href="https://youtube.com/NaughtyPROFESSOR"> <img src="https://img.shields.io/youtube/channel/subscribers/UCU3Hg3qJJrIaC_0Gw7MLT1A?V?label=Subscribers&style=for-the-badge&color=red&labelColor=ce463"/> </a>
 
+</a>  
+</p>
+<img src="https://telegra.ph/file/312b518f6a2c75090fe42.jpg"><br>
+
 #### Added Features
 * Imdb posters for autofilter.
 * Imdb rating for autofilter.
