@@ -4,9 +4,16 @@
    
 
 
-# [Eᴇᴠᴇᴇ](telegram.me/MH_Eevee_bot)
+# [Eᴇᴠᴇᴇ](https://telegram.me/MH_Eevee_bot)
   
   ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Adv+Auto+Filter+bot+V3;Click+Deploy+to+Heroku+Button;By+Eevee)
+  
+ ## Subscribe To My YouTube Channel
+<a href="https://youtube.com/NaughtyPROFESSOR"> <img src="https://img.shields.io/youtube/channel/subscribers/UCU3Hg3qJJrIaC_0Gw7MLT1A?V?label=Subscribers&style=for-the-badge&color=red&labelColor=ce463"/> </a>
+
+</a>  
+</p>
+<img src="https://telegra.ph/file/fcfd0ecd0dabe94b0ced3.gif"><br>
 
 ## Added Features
 * Index channel or group files for inline search.
