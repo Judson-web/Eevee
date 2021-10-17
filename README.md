@@ -1,31 +1,44 @@
 
+<a href="https://en.wikipedia.org/wiki/Eevee">
+  <img src="https://telegra.ph/file/547547450aebc52448e8b.jpg" alt="view">    
+   
 
-![GitHub Repo stars](https://img.shields.io/github/stars/DalinMathew/AutoFilterBotV3?style=social)
-<img src="https://img.shields.io/github/forks/DalinMathew/AutoFilterBotV3?style=social"></img>
-## How To Deploy Video
-<a href="https://youtu.be/5hnYOKBzyi8"><img src="https://img.shields.io/badge/How%20To%20Deploy-blue.svg?logo=Youtube"></a> <img src="https://img.shields.io/youtube/views/5hnYOKBzyi8?style=social">
-## Subscribe YouTube Channel
-<a href="https://youtube.com/NaughtyPROFESSOR"> <img src="https://img.shields.io/youtube/channel/subscribers/UCU3Hg3qJJrIaC_0Gw7MLT1A?V?label=Subscribers&style=for-the-badge&color=red&labelColor=ce463"/> </a>
 
-</a>  
-</p>
-<img src="https://telegra.ph/file/fcfd0ecd0dabe94b0ced3.gif"><br>
+# [Eᴇᴠᴇᴇ](telegram.me/MH_Eevee_bot)
+  
+  ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Adv+Auto+Filter+bot+V3;Click+Deploy+to+Heroku+Button;By+Eevee)
 
-#### Added Features
+## Added Features
+* Index channel or group files for inline search.
+* Index command to index all the files in a given channel (No USER_SESSION Required).
+* Ability to Index Public Channels without being admin.
+* When you post file on telegram channel or group this bot will save that file in database, so you can search easily in inline mode.
+* Supports document, video and audio file formats with caption support.
 * Imdb posters for autofilter.
 * Imdb rating for autofilter.
 * Custom captions for your files.
-* Index command to index all the files in a given channel (No USER_SESSION Required).
-* Ability to Index Public Channels without being admin.
 * Support Auto-Filter (Both in PM and in Groups)
 * Once files saved in Database , exists until you manually deletes. (No Worry if post gets deleted from source channel.)
 * Added Force subscribe (Only channel subscribes can use the bot)
 * Ability to restrict groups(AUTH_GROUPS)
 
-#### Deploy To Heroku
+## Installation
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Judson-web/Autofilter-V3)
+ ### Easy Way
+-------------------
+<html>
+<body>
 
+<details close>
+  <summary>Heroku</summary>
+  <p><p><a href="https://heroku.com/deploy?template=https://github.com/Judson-web/Autofilter-V3"><img src="https://img.shields.io/badge/Deploy%20Eevee%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="300""/></a></p></p>
+</details>
+
+</body>
+</html>
+
+--------------------
+    
 #### Hard Way
 ```bash
 # Create virtual environment
