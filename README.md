@@ -38,7 +38,7 @@
 
 <details close>
   <summary>Heroku</summary>
-  <p><p><a href="https://heroku.com/deploy?template=https://github.com/Judson-web/Autofilter-V3"><img src="https://img.shields.io/badge/Deploy%20Eevee%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="300""/></a></p></p>
+  <p><p><a href="https://heroku.com/deploy?template=https://github.com/Judson-web/Eevee"><img src="https://img.shields.io/badge/Deploy%20Eevee%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="300""/></a></p></p>
 </details>
 
 </body>
