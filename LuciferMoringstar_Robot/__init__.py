@@ -11,19 +11,19 @@ from .Channel import (
 )
 
 HELP = """
-Basic Commads
+Bᴀsɪᴄ Cᴏᴍᴍᴀᴅs
 
-/start :- check am Alive
+/start :- ᴄʜᴇᴄᴋ ᴀᴍ Aʟɪᴠᴇ
 
-Bot Owner Only
-/broadcast Replay Any Message or Media
-/stats user Status
-/ban_user  click ban_user more info
-/unban_user click unban_user more info
-/banned_users Banned User Details
-/total How Many Files Added In Database
-/logger  Get Logs
-/delete Delete File From Database
+Bᴏᴛ Oᴡɴᴇʀ Oɴʟʏ
+/broadcast Rᴇᴘʟᴀʏ Aɴʏ Mᴇssᴀɢᴇ ᴏʀ Mᴇᴅɪᴀ
+/stats ᴜsᴇʀ Sᴛᴀᴛᴜs
+/ban_user  ᴄʟɪᴄᴋ ʙᴀɴ_ᴜsᴇʀ ᴍᴏʀᴇ ɪɴғᴏ
+/unban_user ᴄʟɪᴄᴋ ᴜɴʙᴀɴ_ᴜsᴇʀ ᴍᴏʀᴇ ɪɴғᴏ
+/banned_users Bᴀɴɴᴇᴅ Usᴇʀ Dᴇᴛᴀɪʟs
+/total Hᴏᴡ Mᴀɴʏ Fɪʟᴇs Aᴅᴅᴇᴅ Iɴ Dᴀᴛᴀʙᴀsᴇ
+/logger  Gᴇᴛ Lᴏɢs
+/delete Dᴇʟᴇᴛᴇ Fɪʟᴇ Fʀᴏᴍ Dᴀᴛᴀʙᴀsᴇ
 
 """
 
