@@ -1,4 +1,6 @@
 import os
+import time
+import random
 import logging
 from pyrogram import Client, filters
 from pyrogram import StopPropagation
@@ -12,8 +14,10 @@ from Database import Database
 from pyrogram.errors import UserNotParticipant
 logger = logging.getLogger(__name__)
 
-Eevee = ["https://telegra.ph/file/bb8017179ad21690aa91d.jpg",
-        "https://telegra.ph/file/9f3d0f89e82e800d01001.jpg",]
+PHOTO = [
+    "https://telegra.ph/file/bb8017179ad21690aa91d.jpg",
+    "https://telegra.ph/file/9f3d0f89e82e800d01001.jpg"
+]
 
 
 
