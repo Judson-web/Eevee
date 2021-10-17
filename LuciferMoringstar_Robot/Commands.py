@@ -12,6 +12,24 @@ from Database import Database
 from pyrogram.errors import UserNotParticipant
 logger = logging.getLogger(__name__)
 
+Pikachu = ["https://telegra.ph/file/b5a11192ecd411b479494.jpg",
+           "https://telegra.ph/file/d0d3199a7e79967dd4003.jpg",
+           "https://telegra.ph/file/165e8d2680ba76017b1ed.jpg",
+           "https://telegra.ph/file/6ae796f3eb6ad20d2811e.jpg",
+           "https://telegra.ph/file/2bcbd85d929bb64416056.png",
+           "https://telegra.ph/file/9c7136ab7ccdce8eee37b.jpg",
+           "https://telegra.ph/file/64c5e09cfacef17123cb7.jpg",
+           "https://telegra.ph/file/7592ed90b9a674c5e20ad.jpg",
+           "https://telegra.ph/file/fd977dbd95f461917591f.jpg",
+           "https://telegra.ph/file/817cf03ebd738f066f84b.jpg",
+           "https://telegra.ph/file/3aad3d4ce42d964223f2f.jpg",
+           "https://telegra.ph/file/dfebd4207f9d5d7f7151a.jpg",
+           "https://telegra.ph/file/8fe7bec6cc6245d8fb45e.jpg"]
+
+
+
+
+
 LOG_CHANNEL = BROADCAST_CHANNEL
 
 db = Database(DB_URL, SESSION)
@@ -45,14 +63,14 @@ async def start(bot, message):
                 ident, file_id = message.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=message.from_user.id,
-                    text="**Please Join My Updates Channel to use this Bot!**",
+                    text="**𝙷𝙴𝚈 𝙱𝚁𝚄𝙷 🙋‍♀️ 𝚈𝙾𝚄 𝙷𝙰𝚅𝙴𝙽'𝚃 𝚈𝙴𝚃 𝙹𝙾𝙸𝙽𝙴𝙳 𝙼𝚈 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝙿𝙻𝙴𝙰𝚂𝙴 𝙹𝙾𝙸𝙽 𝙼𝚈 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚃𝙾 𝚄𝚜𝙴 𝙼𝙴\n𝙰𝙵𝚃𝙴𝚁 𝙹𝙾𝙸𝙽𝚒𝙽𝙶 𝙲𝙻𝙸𝙲𝙺 𝚃𝚁𝚈 𝙰𝙶𝙰𝙸𝙽 𝚃𝙾 𝙶𝙴𝚃 𝚈𝚘𝚄𝚁 𝙼𝙾𝚅𝙸𝙴 😇!!**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
                                 InlineKeyboardButton("🔰 𝖩𝗈𝗂𝗇 𝖴𝗉𝖽𝖺𝗍𝖾 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 🔰", url=invite_link.invite_link)
                             ],
                             [
-                                InlineKeyboardButton("🔄 𝖳𝗋𝗒 𝖠𝗀𝖺𝗂𝗇", callback_data=f"checksub#{file_id}")
+                                InlineKeyboardButton("🔄 𝙏𝙧𝙮 𝘼𝙜𝙖𝙞𝙣", callback_data=f"checksub#{file_id}")
                             ]
                         ]
                     ),
@@ -84,7 +102,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('𝖲𝖤𝖠𝖱𝖢𝖧 𝖠𝖦𝖠𝖨𝖭', switch_inline_query_current_chat='')
+                       InlineKeyboardButton("🍿 𝙅𝙊𝙄𝙉 𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 🍿", url="https://t.me/movieshub_group"),
                     ]
                     ]
                 await bot.send_cached_media(
@@ -103,22 +121,22 @@ async def start(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("📢 Join Updates Channel 📢", url=invite_link.invite_link)
+                        InlineKeyboardButton("💙𝙅𝙊𝙄𝙉 𝙈𝙔 𝙐𝙋𝘿𝘼𝙏𝙀 𝘾𝙃𝘼𝙉𝙉𝙀𝙇🧡", url=invite_link.invite_link)
                     ]
                 ]
             )
         )
     else:
-        await message.reply_text(
+        await cmd.reply_photo(photo = random.choice(Pikachu),
             START_MSG,
             parse_mode="Markdown",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("Search Here", switch_inline_query_current_chat='')
+                InlineKeyboardButton("𝙎𝙚𝙖𝙧𝙘𝙝 𝙝𝙚𝙧𝙚🔎", switch_inline_query_current_chat='')
                 ],[
-                InlineKeyboardButton("Help", callback_data="help"),
-                InlineKeyboardButton("About", callback_data="about")
+                InlineKeyboardButton("𝙃𝙚𝙡𝙥 🥺", callback_data="help"),
+                InlineKeyboardButton("𝘼𝙗𝙤𝙪𝙩 😎", callback_data="about")
                 ]]
             )
         )
@@ -284,7 +302,7 @@ async def total(bot, message):
     msg = await message.reply("Processing...⏳", quote=True)
     try:
         total = await Media.count_documents()
-        await msg.edit(f'📁 Saved files: {total}')
+        await msg.edit(f'Total Saved files 🔥: {total}')
     except Exception as e:
         logger.exception('Failed to check total files')
         await msg.edit(f'Error: {e}')
@@ -329,9 +347,9 @@ async def delete(bot, message):
 @Client.on_message(filters.command('about'))
 async def bot_info(bot, message):
     buttons = [
-        [
-            
-            InlineKeyboardButton('Deploy Video', url=f'{TUTORIAL}')
+        [                   
+            InlineKeyboardButton('💜૦ωՈ૯Ր💜', url='https://t.me/VAMPIRE_KING_NO_1'),
+            InlineKeyboardButton('🆁🅴🅿️🅾️', url='https://t.me/NOKIERUNNOIPPKITTUM'),
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
