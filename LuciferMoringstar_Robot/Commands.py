@@ -12,7 +12,7 @@ from Database import Database
 from pyrogram.errors import UserNotParticipant
 logger = logging.getLogger(__name__)
 
-Evee = ["https://telegra.ph/file/bb8017179ad21690aa91d.jpg",
+Eevee = ["https://telegra.ph/file/bb8017179ad21690aa91d.jpg",
         "https://telegra.ph/file/9f3d0f89e82e800d01001.jpg",]
 
 
@@ -115,8 +115,8 @@ async def start(bot, message):
             )
         )
     else:
-        await cmd.reply_photo(photo = random.choice(Evee),
-            START_MSG,
+        await cmd.reply_photo(photo = random.choice(Eevee),
+            caption=START_MSG,
             parse_mode="Markdown",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
