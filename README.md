@@ -9,7 +9,7 @@
 
 </a>  
 </p>
-<img src="https://telegra.ph/file/312b518f6a2c75090fe42.jpg"><br>
+<img src="https://telegra.ph/file/fcfd0ecd0dabe94b0ced3.gif"><br>
 
 #### Added Features
 * Imdb posters for autofilter.
