@@ -123,12 +123,23 @@ async def start(bot, message):
             photo=f"{random.choice(PHOTO)}",
             caption=START_MSG.format(message.from_user.mention),
             reply_markup=InlineKeyboardMarkup(
-                [[
-                InlineKeyboardButton("𝙎𝙚𝙖𝙧𝙘𝙝 𝙝𝙚𝙧𝙚🔎", switch_inline_query_current_chat='')
-                ],[
-                InlineKeyboardButton("𝙃𝙚𝙡𝙥 🥺", callback_data="help"),
-                InlineKeyboardButton("𝘼𝙗𝙤𝙪𝙩 😎", callback_data="about")
-                ]]
+                [
+                    [
+                        InlineKeyboardButton("➕ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ➕", url= "https://t.me/MH_Eevee_bot?startgroup=true")
+                    ],
+                    [
+                        InlineKeyboardButton("𝙎𝙚𝙖𝙧𝙘𝙝 𝙝𝙚𝙧𝙚🔎", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("𝘼𝙣𝙮 𝙃𝙚𝙡𝙥 💡", url="telegram.me/STMbOTsUPPORTgROUP")
+                    ],
+                    [
+                        InlineKeyboardButton("𝙈𝙮 𝘿𝙚𝙫 🔥", url="telegram.me/VAMPIRE_KING_NO_1"),
+                        InlineKeyboardButton("𝙈𝙮 𝘿𝙚𝙫 2🔥", url="telegram.me/DARK_ANGEL_TG")
+                    ],
+                    [
+                        InlineKeyboardButton("𝘼𝙗𝙤𝙪𝙩 😎", callback_data="about"),
+                        InlineKeyboardButton("𝙃𝙚𝙡𝙥 🥺", callback_data="help")
+                    ]    
+                ]
             )
         )
         StopPropagation
