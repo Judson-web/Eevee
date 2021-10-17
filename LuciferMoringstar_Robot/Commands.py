@@ -339,8 +339,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [                   
-            InlineKeyboardButton('💜૦ωՈ૯Ր💜', url='https://t.me/VAMPIRE_KING_NO_1'),
-            InlineKeyboardButton('🆁🅴🅿️🅾️', url='https://t.me/NOKIERUNNOIPPKITTUM'),
+                InlineKeyboardButton("𝙃𝙚𝙡𝙥 🥺", callback_data="help"),
+                InlineKeyboardButton('🆁🅴🅿️🅾️', url='https://t.me/NOKIERUNNOIPPKITTUM'),
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
