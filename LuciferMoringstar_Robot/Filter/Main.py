@@ -277,17 +277,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "help":
             buttons = [
                 [
-                    InlineKeyboardButton('Making Video', url=f'{TUTORIAL}')
+                       InlineKeyboardButton("𝘼𝙗𝙤𝙪𝙩 😎", callback_data="about")
                 ]
                 ]
             await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
         elif query.data == "about":
             buttons = [
-                [
-                    InlineKeyboardButton('Making Video', url=f'{TUTORIAL}')
-                ]
-                ]
+        [                   
+                InlineKeyboardButton("𝙃𝙚𝙡𝙥 🥺", callback_data="help"),
+                InlineKeyboardButton('🆁🅴🅿️🅾️', url='https://t.me/NOKIERUNNOIPPKITTUM')
+        ]
+        ]
             await query.message.edit(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
