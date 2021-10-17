@@ -13,7 +13,7 @@ from pyrogram.errors import UserNotParticipant
 logger = logging.getLogger(__name__)
 
 Evee = ["https://telegra.ph/file/bb8017179ad21690aa91d.jpg",
-           "https://telegra.ph/file/9f3d0f89e82e800d01001.jpg",]
+        "https://telegra.ph/file/9f3d0f89e82e800d01001.jpg",]
 
 
 
