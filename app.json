@@ -50,7 +50,7 @@
         },
         "START_MSG": {
             "description": "Welcome message for start command",
-            "value": "**Hi, I'm Auto Filter Bot With Greater Abilities**",
+            "value": "**Hi, I'm Evee With Greater Abilities**",
             "required": false
         },
         "USE_CAPTION_FILTER": {
