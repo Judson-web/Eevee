@@ -122,8 +122,6 @@ async def start(bot, message):
         await message.reply_photo(
             photo=f"{random.choice(PHOTO)}",
             caption=START_MSG.format(message.from_user.mention),
-            parse_mode="Markdown",
-            disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
                 InlineKeyboardButton("𝙎𝙚𝙖𝙧𝙘𝙝 𝙝𝙚𝙧𝙚🔎", switch_inline_query_current_chat='')
